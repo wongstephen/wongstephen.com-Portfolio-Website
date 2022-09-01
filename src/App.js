@@ -3,11 +3,13 @@ import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "@mui/material";
 import NavBar from "./components/NavBar";
+import { useRef } from "react";
 
 function App() {
+  const ref = useRef(null);
   return (
     <div className="App">
-        <NavBar />
+      <NavBar />
       <div className="main__container">
         <header>
           <div className="header__img">
@@ -28,7 +30,14 @@ function App() {
               to back all these technologies with NodeJS, Express and MongoDB.
             </p>
             <div>Let's create someting together</div>
-            <button className="button__contact">Contact Me</button>
+            <button
+              className="button__contact"
+              onClick={() => {
+                ref.current?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Contact Me
+            </button>
           </div>
         </header>
 
@@ -158,7 +167,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className="contact__container">
+        <div className="contact__container" ref={ref}>
           <h2 className="body__h2">Let's Get In Touch</h2>
           <p className="contact__subtitle">
             Reach out and let's start a conversation
