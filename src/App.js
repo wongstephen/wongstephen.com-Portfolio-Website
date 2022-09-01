@@ -2,11 +2,12 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "@mui/material";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
+        <NavBar />
       <div className="main__container">
         <header>
           <div className="header__img">
