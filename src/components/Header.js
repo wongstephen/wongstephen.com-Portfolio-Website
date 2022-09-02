@@ -24,6 +24,13 @@ export default function Header(props) {
         <button className="button__contact" onClick={props.clickEvent}>
           Contact Me
         </button>
+        <a
+          href="https://1drv.ms/b/s!AqzJmAEIVVbei4gBnhC_dN9RbZ1UHQ?e=Mjih80"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="button__resume button__contact">Resume</button>
+        </a>
       </div>
     </header>
   );
