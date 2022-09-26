@@ -5,51 +5,50 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "@mui/material";
 export default function Contact(props) {
   return (
-    <div className="contact__container" ref={props.refs}>
-      <h2 className="body__h2">Let's Get In Touch</h2>
-      <p className="contact__subtitle">
-        Reach out and let's start a conversation
-      </p>
-      <ul className="contact__ul">
+    <div className="w-11/12 mx-auto" ref={props.refs}>
+      <h2 className="text-lg font-medium tracking-wider text-left font-poppins">
+        Let's Get In Touch
+      </h2>
+      <div className="w-full h-1 bg-sky-500 my-2.5"></div>
+
+      <ul className="flex flex-col gap-5 mt-10">
         <li>
-          <GitHubIcon className="contact__icon" />
-          <Link
-            underline="hover"
+          <GitHubIcon className="text-gray-900" />
+          <a
             href="https://github.com/wongstephen"
-            color="inherit"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
+            className="ml-5 text-sm font-light tracking-wide text-sky-900 hover:text-sky-900"
           >
-            <span className="contact__links">github.com/wongstephen</span>
-          </Link>
+            github.com/wongstephen
+          </a>
         </li>
         <li>
           <LinkedInIcon className="contact__icon" />
-          <Link
-            underline="hover"
+          <a
             href="https://www.linkedin.com/in/wongs/"
-            color="inherit"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
+            className="ml-5 text-sm font-light tracking-wide text-sky-900 hover:text-sky-900"
           >
-            <span className="contact__links">linkedin.com/in/wongs/</span>
-          </Link>
+            linkedin.com/in/wongs/
+          </a>
         </li>
         <li>
           <AlternateEmailIcon className="contact__icon" />
-          <Link
-            underline="hover"
+
+          <a
             href="mailto: contact@wongstephenk.com"
-            color="inherit"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
+            className="ml-5 text-sm font-light tracking-wide text-sky-900 hover:text-sky-900"
           >
-            <span className="contact__links">contact@wongstephenk.com</span>
-          </Link>
+            contact@wongstephenk.com
+          </a>
         </li>
       </ul>
 
-        {/* <form name="contact" method="POST" data-netlify="true">
+      {/* <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>
               Your Name: <input type="text" name="name" />

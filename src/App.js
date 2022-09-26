@@ -10,12 +10,15 @@ function App() {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <div className="App">
+    <div className="max-w-5xl mx-auto mb-24">
       <NavBar />
       <div className="main__container">
         <Header clickEvent={handleClick} />
         <main>
+          <div className="w-11/12 h-[1px] mx-auto my-14 bg-slate-500/20"></div>
           <Projects />
+          <div className="w-11/12 h-[1px] mx-auto my-14 bg-slate-500/20"></div>
+
           <Contact refs={ref} />
         </main>
       </div>
