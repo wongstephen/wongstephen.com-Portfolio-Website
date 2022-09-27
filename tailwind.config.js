@@ -18,7 +18,11 @@ module.exports = {
         lightgreen: "#B3DE81",
         cotton: "#FDFFFF",
       },
+      padding: {
+        "1/2": "50%",
+        full: "100%",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };

@@ -3,20 +3,18 @@ import React from "react";
 export default function Header(props) {
   return (
     <header className="w-11/12 mx-auto md:flex md:gap-10">
-      {/* image */}
-      <div className="max-w-sm mx-auto my-5 overflow-auto shadow-lg rounded-3xl bg-gradient-to-br from-sky-500 to-sky-700 max-h-96">
+      <div className="sm:min-w-[24rem] my-5">
         <img
-          className="w-auto h-full"
-          src={require("../assets/headshot.png")}
+          className="w-full h-auto max-w-sm rounded-lg"
+          src={require("../assets/headshot-sm.png")}
           alt="hero"
         />
       </div>
-      {/* header content */}
-      <div className="flex flex-col gap-5 my-5">
+      <div className="flex flex-col gap-2.5 my-5">
         <h1 className="text-4xl font-medium tracking-wide text-sky-900">
           Hi, I'm Stephen
         </h1>
-        <h2 className="font-light tracking-widest font-poppins">
+        <h2 className="my-0 font-light tracking-widest font-poppins">
           Frontend Software Engineer
         </h2>
         <p className="text-base font-light tracking-wide font-poppins">
@@ -26,7 +24,7 @@ export default function Header(props) {
           <br />I create frontend apps with React.js, React Native, JavaScript,
           CSS, and HTML5, JavaScript. I go beyond to provide backend solutions
           with technologies including NodeJS, Express and MongoDB. In addition,
-          I bring apps to life with RESTful API and styling using Tailwind.
+          I bring apps to life with RESTful APIs and styling using Tailwind.
           <br />
           <br />{" "}
           <span className="font-medium">Let's create something together!</span>
