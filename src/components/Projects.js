@@ -9,7 +9,7 @@ export default function Projects() {
       </h2>
       <div className="w-full h-1 bg-sky-500 my-2.5"></div>
 
-      <ul className="">
+      <ul className="md:flex md:flex-wrap md:gap-5">
         {/* Tool Library */}
         <ProjectItem
           data={{
@@ -62,7 +62,7 @@ export default function Projects() {
             photo: `${require("../assets/growlerz-thumb.png")}`,
             tech: "React.js, JavaScript, Headless CMS, GraphQL",
             description:
-              "he Growlerz Indoor Dog Park, Seattle is a dog park that provides a safe and fun environment for dogs to play.",
+              "The Growlerz Indoor Dog Park, Seattle is a dog park that provides a safe and fun environment for dogs to play.",
             wwwLink: "https://growlerzseattle.netlify.app/",
             githubLink: "https://github.com/wongstephen/growlerzseattle",
             demoCreds: "",

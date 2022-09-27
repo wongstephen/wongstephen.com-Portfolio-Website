@@ -11,7 +11,7 @@ function App() {
   }
   return (
     <div className="max-w-5xl mx-auto mb-24">
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="main__container">
         <Header clickEvent={handleClick} />
         <main>

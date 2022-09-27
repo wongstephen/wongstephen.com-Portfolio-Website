@@ -2,7 +2,7 @@ import React from "react";
 
 export const ProjectItem = ({ data }) => {
   return (
-    <li className="my-10">
+    <li className="my-10 md:flex-grow md:basis-1/3">
       {/* image */}
 
       <img
