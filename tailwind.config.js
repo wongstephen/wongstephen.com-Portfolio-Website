@@ -12,11 +12,13 @@ module.exports = {
         comfortaa: ["Comfortaa", "cursive"],
         poppins: ["Poppins", "sans-serif"],
       },
-      color: {
+      colors: {
         emerald: "#265C00",
         greenbean: "#68A225",
         lightgreen: "#B3DE81",
         cotton: "#FDFFFF",
+        color1: "#78c4d2",
+        color2: "#efc41c",
       },
       padding: {
         "1/2": "50%",
