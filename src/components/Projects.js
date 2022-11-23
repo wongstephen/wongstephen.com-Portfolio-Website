@@ -24,7 +24,7 @@ export default function Projects() {
             tech: "React.js, JavaScript, Tailwind, MongoDB, Express.js, & Node.js.",
             description:
               "Looking for an easy and efficient way to keep track of your tools? Look no further than Tool Library! With this user-friendly system, you can input your tools and monitor who borrows them, when they're borrowed, and when they're returned.",
-            wwwLink: "https://toollibrary.netlify.com",
+            wwwLink: "https://toollibrary.wongstephenk.com",
             githubLink: "https://github.com/wongstephen/toolloaner-frontend",
             demoCreds: "guest@user.com",
             demoPassword: "password",
@@ -53,7 +53,7 @@ export default function Projects() {
             tech: "React.js, JavaScript, MongoDB, Mongoose, Express.js, & Node.js",
             description:
               "Looking for the best deals on the web? Look no further than Jupiter Deals! Our website allows you to view the latest deals from around the internet, so you can save big on your next purchase.",
-            wwwLink: "https://jupiterdeals.netlify.com",
+            wwwLink: "https://jupiter.wongstephenk.com",
             githubLink: "https://github.com/Jupiter115",
             demoCreds: "",
             demoPassword: "",
@@ -69,8 +69,8 @@ export default function Projects() {
             tech: "React.js, JavaScript, Headless CMS, GraphQL",
             description:
               "Looking for a safe and fun environment for your dog to play? Look no further than Growlerz Indoor Dog Park in Seattle! The turfed play area is perfect for dogs of all ages and sizes, and day care and taproom services are second to none.",
-            wwwLink: "https://growlerzseattle.netlify.app/",
-            githubLink: "https://github.com/wongstephen/growlerzseattle",
+            wwwLink: "https://growlerz.wongstephenk.com/",
+            githubLink: "https://github.com/wongstephen/growlerz2022",
             demoCreds: "",
             demoPassword: "",
           }}
