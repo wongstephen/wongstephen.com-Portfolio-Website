@@ -23,7 +23,7 @@ export default function Projects() {
             photo: `${require("../assets/tool-library-thumb.png")}`,
             tech: "React.js, JavaScript, Tailwind, MongoDB, Express.js, & Node.js.",
             description:
-              "Looking for an easy and efficient way to keep track of your tools? Look no further than Tool Library! With this user-friendly system, you can input your tools and monitor who borrows them, when they're borrowed, and when they're returned.",
+              "Tool Library is the perfect solution for keeping track of your tools in an easy and efficient way. With a user-friendly system, you can input your tools and monitor who borrows them, when they're borrowed, and when they're returned. Say goodbye to lost or misplaced tools and hello to an organized and streamlined system.",
             wwwLink: "https://toollibrary.wongstephenk.com",
             githubLink: "https://github.com/wongstephen/toolloaner-frontend",
             demoCreds: "guest@user.com",
@@ -37,7 +37,7 @@ export default function Projects() {
             photo: `${require("../assets/recyclr-thumb.png")}`,
             tech: "React Native, React.js, JavaScript, MongoDB, Express.js, & Node.js.",
             description:
-              "If you're looking for an easy and accurate way to find out if something is recyclable, look no further than Recyclr. This iOS app makes it a snap to upload a photo of an object and get a quick answer on whether or not it can be recycled. It's the perfect tool for teaching people about recycling.",
+              "Recyclr is the perfect solution for quickly and accurately determining if something is recyclable. With this iOS app, you can simply upload a photo of an object and receive a quick answer on whether or not it can be recycled. It's an easy and effective way to educate people about recycling. Give Recyclr a try and start making a positive impact on the environment today.",
             wwwLink: "https://recyclr.netlify.com",
             githubLink: "https://github.com/recyclr-app",
             demoCreds: "",
@@ -52,7 +52,7 @@ export default function Projects() {
             photo: `${require("../assets/jupiter-deals-thumb.png")}`,
             tech: "React.js, JavaScript, MongoDB, Mongoose, Express.js, & Node.js",
             description:
-              "Looking for the best deals on the web? Look no further than Jupiter Deals! Our website allows you to view the latest deals from around the internet, so you can save big on your next purchase.",
+              "Jupiter Deals is the ultimate destination for finding the best deals on the web. Our website allows you to easily view the latest deals from around the internet, so you can save big on your next purchase. With Jupiter Deals, you'll never have to worry about overpaying again. Start shopping smarter with us today.",
             wwwLink: "https://jupiter.wongstephenk.com",
             githubLink: "https://github.com/Jupiter115",
             demoCreds: "",
@@ -68,7 +68,7 @@ export default function Projects() {
             photo: `${require("../assets/growlerz-thumb.png")}`,
             tech: "React.js, JavaScript, Headless CMS, GraphQL",
             description:
-              "Looking for a safe and fun environment for your dog to play? Look no further than Growlerz Indoor Dog Park in Seattle! The turfed play area is perfect for dogs of all ages and sizes, and day care and taproom services are second to none.",
+              "Growlerz Dog Park in Seattle is the perfect place for your dog to play and socialize in a safe and fun environment. The turfed play area is suitable for dogs of all ages and sizes, and our day care and taproom services are top-notch. If you want to ensure that your dog has a great time while you're away, give Growlerz a try. ",
             wwwLink: "https://growlerz.wongstephenk.com/",
             githubLink: "https://github.com/wongstephen/growlerz2022",
             demoCreds: "",

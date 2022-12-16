@@ -33,11 +33,12 @@ export default function Header(props) {
         </p>
 
         <p className="text-base font-light tracking-wide font-poppins">
-          As a software engineer, I develop apps that are easy to use and
-          effective at solving problems. But my work doesn't stop there. I also
-          listen to your situation and work to solve problems together. I
-          believe that collaboration is key to success, and I'm always willing
-          to go the extra mile to ensure that our project is a success.
+          As a software engineer, I specialize in developing apps that are easy
+          to use and effective at solving problems. I believe that collaboration
+          is key to success and am always willing to go the extra mile to ensure
+          the success of a project. In addition to my technical skills, I have
+          strong communication and problem-solving abilities and am committed to
+          working with clients to find the best solutions to their challenges.
         </p>
         <div className="cursor-pointer">
           <button
