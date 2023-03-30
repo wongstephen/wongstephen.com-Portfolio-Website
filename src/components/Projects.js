@@ -26,7 +26,7 @@ export default function Projects() {
               "Tool Library is the perfect solution for keeping track of your tools in an easy and efficient way. With a user-friendly system, you can input your tools and monitor who borrows them, when they're borrowed, and when they're returned. Say goodbye to lost or misplaced tools and hello to an organized and streamlined system.",
             wwwLink: "https://toollibrary.wongstephenk.com",
             githubLink: "https://github.com/wongstephen/toolloaner-frontend",
-            demoCreds: "guest@user.com",
+            demoCreds: "demo@toollibrary.com",
             demoPassword: "password",
           }}
         />
