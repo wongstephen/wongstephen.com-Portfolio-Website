@@ -19,14 +19,14 @@ export default function Projects() {
         {/* Tool Library */}
         <ProjectItem
           data={{
-            title: "Tool Library",
+            title: "BorrowNinja",
             photo: `${require("../assets/tool-library-thumb.png")}`,
             tech: "React.js, JavaScript, Tailwind, MongoDB, Express.js, & Node.js.",
             description:
               "Tool Library is the perfect solution for keeping track of your tools in an easy and efficient way. With a user-friendly system, you can input your tools and monitor who borrows them, when they're borrowed, and when they're returned. Say goodbye to lost or misplaced tools and hello to an organized and streamlined system.",
-            wwwLink: "https://toollibrary.wongstephenk.com",
+            wwwLink: "https://borrowninja.com",
             githubLink: "https://github.com/wongstephen/toolloaner-frontend",
-            demoCreds: "demo@toollibrary.com",
+            demoCreds: "demo@borrowninja.com",
             demoPassword: "password",
           }}
         />
